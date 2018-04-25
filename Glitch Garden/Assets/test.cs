@@ -10,6 +10,8 @@ public class test : MonoBehaviour {
 		PlayerPrefsManager.SetMasterVolume (0.3f);
 		print (PlayerPrefsManager.GetMasterVolume ());
 
+		PlayerPrefsManager.UnlockLevel (2);
+
 	}
 	
 	// Update is called once per frame
